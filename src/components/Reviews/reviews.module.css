@@ -1,0 +1,14 @@
+.list {
+  margin-top: 30px;
+}
+.author {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item {
+  border: 1px solid gray;
+  padding: 10px;
+}

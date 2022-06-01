@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: red;
+  font-weight: 700;
+}

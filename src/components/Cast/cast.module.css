@@ -1,0 +1,30 @@
+.cast {
+  width: 1200px;
+  padding: 0 20px;
+  margin: 30px auto 0;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -30px;
+}
+.item {
+  border: 1px solid gray;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 30px;
+}
+.img {
+  width: 100px;
+  border-radius: 5px;
+}
+.name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.character {
+  font-style: italic;
+  font-weight: 500;
+}
